@@ -18,7 +18,7 @@ if __name__ == '__main__':
 		match opc:
 			case 1:
 				fecha=input("Ingrese fecha: ")
-				entidad=input("Ingrese entidad: ")
+				entidad=input("Ingrese entidad: ").lower()
 				atenciones.atencionesRealizadas(fecha,entidad,afiliados)
 			case 2:
 				dni=str(input("Ingrese dni: "))	
