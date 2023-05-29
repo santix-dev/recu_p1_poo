@@ -17,8 +17,8 @@ if __name__ == '__main__':
 	while opc!=0:
 		match opc:
 			case 1:
-				fecha="2/4/2023"#input("Ingrese fecha: ")
-				entidad="clinica de ojos"#input("Ingrese entidad: ")
+				fecha=input("Ingrese fecha: ")
+				entidad=input("Ingrese entidad: ")
 				atenciones.atencionesRealizadas(fecha,entidad,afiliados)
 			case 2:
 				dni=str(input("Ingrese dni: "))	
